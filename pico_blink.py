@@ -5,6 +5,6 @@ led = Pin(25, Pin.OUT)
 
 while True:
     led.value(0)
-    sleep_ms(128)
+    sleep_ms(500)
     led.value(1)
-    sleep_ms(128)
+    sleep_ms(500)
